@@ -1,0 +1,29 @@
+
+//*Contact Us*//
+.map {
+	input {
+		width: 60%;
+		color: red;
+		border: 1px solid #E8663C;
+		color: #E8663C;
+
+	}
+	textarea {
+		border: 1px solid #E8663C;
+	}
+	iframe {
+		max-width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	button {
+		width: 100%;
+		height: 40px;
+		background-color: #E8663C;
+		border-color: #E8663C;
+		margin-top: 2%;
+	}
+}
+form {
+	color: red;
+}

@@ -1,0 +1,31 @@
+
+///*Fase1*///
+
+.fase1 {
+	img {
+		border: 1px solid gray;
+		padding: 1%;
+		float: left;
+@include margin (0, 4%, 2%, 2%);
+	}
+	.parrafo {
+		margin-top: 4%;
+		padding-bottom: 4%;
+	}
+	.parrafo1 {
+		padding-bottom: 4%;
+	}
+	.parrafo2 {
+		padding-bottom: 5%;
+	}
+	.parrafoespecial {
+		border-left: 5px solid red;
+		padding-left: 2%;
+		margin-top: 5%;
+		width: 77%;
+		margin: 0 auto;
+		 p {
+		 	color: red;
+		 }
+	}
+}

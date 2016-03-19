@@ -1,0 +1,42 @@
+
+///*Footer*///
+.single_footer_container {
+	background-color: #E8663C;
+	padding-bottom: 3%;
+	padding-right: 3%;
+	border-right: 11px solid white;
+	border-left: 11px solid white;
+	position: relative;
+	top: 0px;
+	 h2, p {
+	 	color: white;}
+	a {
+		font-size: 26px;
+	}
+}
+.fa-facebook-square {
+	color: blue;
+}
+
+.file {
+	h4 {
+		padding-top: 6%;
+		font-family: "Bebas";
+	}
+}
+.cajas {
+	width: 70px;
+	height: 70px;
+	background-color: #E8663C;
+	display: inline-block;
+}
+.footer_bottom_area {
+    background: pink;
+    min-height: 318px;
+    position: relative;
+    top: 85px;
+    z-index: -1;
+}
+.without {
+	width: 93%;
+}

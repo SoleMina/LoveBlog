@@ -1,0 +1,55 @@
+
+/*HEADER*/
+
+.header_bottom_area{
+    background-color:#F2AE9C;
+    padding:20px;
+}
+.navbar{
+    margin:0;
+    position:fixed;
+    z-index:3;
+}
+.navbar-default {
+    background-color:#FFFFFF;
+    font-family:"Bebas";
+
+    padding-bottom: 15px;
+
+    .navbar-brand {
+        color:#F2AE9C;
+        font-weight: bold;
+        font-family:"Bebas";
+        &:hover{
+            background-color:transparent;
+            color:#E75E3A;
+        }
+        span{
+            color:#E75E3A;
+            &:hover{
+            color:#F2AE9C;
+            }
+        }
+    }
+}
+.navbar-default {
+    .navbar-nav > li > a{
+    	font-family:"Bebas";
+        color:#BFBFBF;
+        font-size: 18px;
+        margin-top: 15px;
+        &:hover{
+        color:#E75E3A;
+        background-color:transparent;
+        }
+     }
+}
+.navbar-brand {
+	font-size: 28px;
+}
+// HEADER BOTTOM AREA
+.header_bottom_area {
+	background-color: red;
+	height: 60px;
+}
+/****/

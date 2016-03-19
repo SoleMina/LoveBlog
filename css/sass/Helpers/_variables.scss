@@ -1,0 +1,27 @@
+$bebas: "Bebas";
+
+@mixin headline ($color, $size) {
+  color: $color;
+  font-size: $size;
+}
+@mixin padding ($left, $top, $bottom, $right) {
+	padding-left: $left;
+	padding-top: $top;
+	padding-bottom: $bottom;
+	padding-right: $right;
+}
+@mixin margin ($left, $top, $bottom, $right) {
+	margin-left: $left;
+	margin-top: $top;
+	margin-bottom: $bottom;
+	margin-right: $right;
+}
+@mixin boxy($bWidth, $bStyle, $bColor) {
+  border-width: $bWidth;
+  border-style: $bStyle;
+  border-color: $bColor;
+}
+@mixin estructura ($width, $height) {
+	width: $width;
+	height: $height;
+}
